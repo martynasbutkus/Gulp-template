@@ -1,29 +1,10 @@
-body {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 100vh;
-  overflow: hidden;
-}
+/* Remtasi: https://themehoster.com/tf/html/tm/emexso/demo/index.html# */
 
-.img {
-  background: url(../images/gulp.png);
-  background-size: contain;
-  background-repeat: no-repeat;
-  height: 150px;
-  width: 75px;
-  animation: spin 5s infinite;
-}
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600;700&family=Josefin+Sans:wght@400;500;600;700&display=swap');
+@import "variables.scss";
+@import "reset.scss";
+@import "header";
+@import "nav";
+@import "hero";
+@import "media";
 
-@keyframes spin {
-  0% {
-    transform: rotate(0deg) scale(1);
-  }
-  50% {
-    transform: rotate(180deg) scale(2);
-  }
-
-  100% {
-    transform: rotate(360deg) scale(1)
-  }
-}

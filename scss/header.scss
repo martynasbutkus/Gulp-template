@@ -1,0 +1,45 @@
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    max-width: 1000px;
+    height: 70px;
+    margin: auto;
+    justify-content: space-between;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.199);
+  
+    .calls{
+      display: flex;
+      gap: 20px;
+    }
+  
+    .social{
+      display: flex;
+      gap: 20px;
+  
+      a {
+        text-decoration: none;
+        border: 1px solid $orange;
+        border-radius: 4px;
+        width: 30px;
+        height: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        transition: 0.3s;
+      }
+  
+      a:hover{
+        background: $orange;
+  
+        i{
+          color: white;
+        }
+      }
+    }
+  }
+  
+  header i{
+    color: $orange;
+  }
